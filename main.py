@@ -1,3 +1,4 @@
+
 def check_ip(ip_num):
     checkResult = False
 
@@ -29,12 +30,10 @@ def check_prefix(pre_num):
     except ValueError:
         return checkResult
 
+
 def calculate_binary(ip_elements):
-
     for ip_element in ip_elements:
-
         modulo = 0,
-
 
 
 ip_elements = []
@@ -81,6 +80,4 @@ while True:
     else:
         print('Der Prefix ist Falsch. Wiederhole die Eingabe!')
 
-
 print('Der Prefix lautet ' + str(checkedPrefix))
-
